@@ -1,0 +1,169 @@
+
+.navbar-nav {
+    /* margin-left: auto;
+    margin-right: auto; */
+    gap: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+    z-index: 1;
+    overflow-x: hidden;
+
+    
+}
+body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "BlueOcean";
+  src: url("BlueOcean.ttf");
+}
+.nav-item a{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+    }
+
+
+
+    .scroll{
+      mix-blend-mode: multiply;
+      width: 200px;
+      margin-top: 50px;
+    }
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+padding-top: 100px;
+    max-height: 100%;
+    background: linear-gradient(90deg,rgba(255, 255, 255, 0.85),rgba(255, 255, 255, 0.588)),url(water.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h1{
+  font-family:"BlueOcean";
+  line-height: 3;
+  background: linear-gradient(90deg,rgb(55, 158, 255),rgb(0, 106, 255));
+  background-clip: text;
+  color: transparent;
+  min-height: 3em; /* استخدام وحدات نسبية */
+
+
+  
+
+
+}
+
+section h2{
+  font-family:"BlueOcean";
+    background: linear-gradient(90deg,rgb(44, 44, 44),rgb(90, 99, 110));
+    background-clip: text;
+    color: transparent;
+    line-height: 3;
+    overflow: hidden;
+
+}
+
+.btn{
+    padding: 20px;
+}
+
+main p {
+    max-width: 100%;
+    padding: 40px;
+    width: 50rem;
+}
+
+.btn{
+    width: 300px;
+}
+
+ 
+@media (max-width: 576px) {
+    .typed-text-container {
+      height: auto; /* ضبط الارتفاع تلقائيًا للشاشات الصغيرة */
+    }
+    .fs-1 {
+      font-size: .2em; /* تعديل حجم الخط للشاشات الصغيرة */
+    }
+  }
+  .section{
+    height: 100%;
+    min-height: 100vh;
+  }
+
+  .carousel-inner{
+    text-align: center;
+
+  }
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+
+}
+.slider img{
+    width: 80rem;
+    max-width: 100%;
+}
+
+
+.navbar-brand{
+  padding-left: 20px;
+}
+nav h3{
+  font-family:"BlueOcean";
+  background: linear-gradient(90deg,rgb(55, 158, 255),rgb(0, 106, 255));
+  background-clip: text;
+  color: transparent;
+  padding-top: 20px;
+
+}
+nav{
+  overflow: hidden;
+}
+
+body{
+  scroll-behavior: smooth;
+}
+
+
+ @media (max-width: 768px) {
+      #reverse {
+        flex-direction: column-reverse;
+      }
+    }
+
+    
+.loading{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 15000;
+  filter: invert();
+}
