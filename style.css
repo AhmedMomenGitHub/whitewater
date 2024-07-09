@@ -34,7 +34,7 @@ body{
       margin-top: 50px;
     }
 main{
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +106,8 @@ main p {
   }
   .section{
     height: 100%;
-    min-height: 100vh;
+    padding-block: 50px;
+
   }
 
   .carousel-inner{
